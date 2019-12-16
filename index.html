@@ -1,0 +1,84 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style/logincss.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+    <style>
+        span {
+              display: none;
+          }
+    </style>
+</head>
+<body>
+<div class="forms">
+<div class="owl">
+    <div class="hand"></div>
+    <div class="hand hand-r"></div>
+    <div class="arms">
+        <div class="arm"></div>
+        <div class="arm arm-r"></div>
+    </div>
+</div>
+<form class="form">
+    <div class="control">
+        <label for="email" class="fa fa-envelope"></label>
+        <input id="email" placeholder="Email" type="email" name="userid"></input>
+    </div>
+    <div class="control">
+        <label for="password" class="fa fa-asterisk"></label>
+        <input id="password" placeholder="Password" type="password" name="pswrd"></input>
+    </div>
+    <div class="altkisim">
+
+    <div class="sifremiunuttum">
+        <a href="forgotpass.html">Forgotten Password?</a>
+    </div>
+        <div class="uyevegiris">
+            <a href="yeniuye.html"class="yeniuye" >Yeni Uye</a>
+            <input type="button" onclick="check(this.form)" class="giris" value="Giris"/>
+
+        </div>
+
+    </div>
+</form>
+</div>
+
+<!-- sifre kismina gelince elleriyle yuzunu kapatmasi -->
+<script>
+    $('input[type="password"]').on('focus', () => {
+        $('*').addClass('password');
+    }).on('focusout', () => {
+        $('*').removeClass('password');
+    });;
+</script>
+<!-- ************************************************** -->
+
+
+<!--Login kontrol-->
+<script language="javascript">
+function check(form)
+{
+if(form.userid.value == "demoogretmen" && form.pswrd.value == "demoogretmen")
+{
+window.open('https://www.google.com')
+}
+else
+{
+alert("Kullanici adini veya sifreni kontrol et :)")
+}
+}
+
+
+
+</script>
+<!-- ************************************************** -->
+
+
+
+
+</body>
+</html>
