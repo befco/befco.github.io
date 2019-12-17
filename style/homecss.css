@@ -1,0 +1,24 @@
+.navbar-brand{
+    height: 50px;
+    width: 50px;
+}
+.quit:hover{
+    box-shadow: #1a8fb4;
+}
+
+.navbar{
+    color: #c2c6c9 !important;
+}
+
+.nav-link:hover{
+    color: #FF8C00!important;
+}
+.nav-link{
+    color:#333847!important;
+}
+
+.hovarabletable{
+    border: 8px solid whitesmoke;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}

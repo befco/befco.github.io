@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34a42e7f-c6f2-4a4e-82cb-b18ed653caaa" name="Default Changelist" comment="" />
+    <list default="true" id="34a42e7f-c6f2-4a4e-82cb-b18ed653caaa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ogretmen1_A.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/homecss.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forgotpass.html" beforeDir="false" afterPath="$PROJECT_DIR$/forgotpass.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/logincss.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/logincss.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeniuye.html" beforeDir="false" afterPath="$PROJECT_DIR$/yeniuye.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,12 +22,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1V3kNtGLE2jdlHGbyhrTQ0EorPt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -28,6 +40,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
@@ -82,7 +95,9 @@
       <updated>1576489128516</updated>
       <workItem from="1576489130832" duration="9524000" />
       <workItem from="1576509601948" duration="849000" />
-      <workItem from="1576516397429" duration="10453000" />
+      <workItem from="1576516397429" duration="10948000" />
+      <workItem from="1576585623282" duration="6220000" />
+      <workItem from="1576606039603" duration="8436000" />
     </task>
     <servers />
   </component>
