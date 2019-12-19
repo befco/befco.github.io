@@ -43,6 +43,7 @@ body {
     border-radius: 50%;
     float: left;
     margin: 0.4em;
+    margin-right:1em;
     background-color: #dfe8ed;
 }
 .c100 *, .c100 *:before, .c100 *:after {
@@ -739,8 +740,23 @@ body {
     color: #3c4761;
 }
 .c100.orange .bar, .c100.orange .fill {
-    border-color: #eb7d4b !important;
+    border-color: #F6B46A !important;
 }
 .c100.orange:hover > span {
     color: #3c4761;
+}
+
+.navbar{
+    background-color: #a3aaae !important;
+}
+
+.c100{
+
+}
+.marginpercentege{
+    float: left;
+
+}
+.grid-item{
+    padding-bottom: 0;
 }

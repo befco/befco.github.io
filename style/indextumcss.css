@@ -1,0 +1,53 @@
+
+/*Arkaplani degistirmek icin kullan indexhtmlde degistiriyor*/
+body{
+    #background-color: #F6B46A !important;
+}
+
+/*indexhtml dosyasindaki box shadow u formun arkasindan kaldirabiliriz*/
+form{
+    #box-shadow: none!important;
+}
+
+/*sifremi unuttum linkinin rengini degistirir.*/
+.sifremiunuttum a{
+    #color: red!important;
+}
+
+/*Uye girisindeki yeni uye kisminin text rengini ayarlar*/
+.uyevegiris a{
+    #color: red;
+}
+/*Uye girisindeki yeni uye kisminin ustundeki text e gelince rengini ayarlar*/
+.uyevegiris a:hover{
+    #color: black;
+}
+
+/*yeni Uye butonunun textin backgroundu belirler*/
+.uyevegiris a{
+   #background-color: red;
+   #border-color: red;
+}
+
+
+/**/
+
+/*Uye girisindeki giris kisminin text rengini ayarlar*/
+.uyevegiris .giris{
+    #color:red;
+}
+
+
+/*Uye girisindeki giris kisminin ustundeki text e gelince rengini ayarlar*/
+.uyevegiris .giris:hover{
+    #color:green;
+}
+
+
+/*Uye girisindeki textin backgroundu belirler*/
+.uyevegiris .giris{
+    #background-color: red;
+    #border-color: red;
+}
+
+

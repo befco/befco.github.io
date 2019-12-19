@@ -15,14 +15,15 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="script" href="loading/loading-bar.js">
     <link rel="stylesheet" href="loading/loading-bar.css">
-    <link rel="stylesheet" href="style/sinifogrenci.css">
+    <link rel="stylesheet" href="style/1-aogretmencss.css">
 
     <title>1/A</title>
 
     <style>
         .vertical-menu {
-            width: 300px;
-            margin-left: 50px;
+            width: 200px;
+            text-align: left;
+            #margin-left: 50px;
         }
 
         .vertical-menu a {
@@ -39,7 +40,7 @@
         }
 
         .vertical-menu a.active {
-            background-color: #4CAF50;
+            background-color: #4c89ff;
             color: white;
         }
     </style>
@@ -53,89 +54,315 @@
         <img class="navbar-brand" src="images/logo.png">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
             <li class="nav-item active">
-                <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="ogretmenhome.html"><img src="images/home.svg" style="width: 50px; height: 50px;"><span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Play</a>
+                <a class="nav-link" href="game.html"><img src="images/gamepad.png" style="width: 70px; height: 40px; margin-top: 10px"> </a>
             </li>
 
         </ul>
-        <div class="dropdown">
             <p class="ogrtisim">Demo Ogretmen</p>
-            <div id="myDropdown" class="dropdown-content">
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#about">About Us</a></li>
-            </div>
-        </div>
+
         <form class="form-inline my-2 my-lg-0">
 
             <a href="index.html" class="quit"><img src="images/powerquit.png" style="width: 40px; height: 40px;"></a>
         </form>
     </div>
 </nav>
-<h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1/A</h1>
-<div class="row">
-    <div class="col-3">
-<div class="vertical-menu">
-    <a href="#" class="active">000000 Ali Kuyu</a>
-    <a href="#">000000 Ali Kuyu</a>
-    <a href="#">000000 Ali Kuyu</a>
-    <a href="#">000000 Ali Kuyu</a>
-    <a href="#">000000 Ali Kuyu</a>
-    <a href="#">000000 Ali Kuyu</a>
-    <a href="#">000000 Ali Kuyu</a>
-    <a href="#">000000 Ali Kuyu</a>
-    <a href="#">000000 Ali Kuyu</a>
-    <a href="#">000000 Ali Kuyu</a>
-    <a href="#">000000 Ali Kuyu</a>
-    <a href="#">000000 Ali Kuyu</a>
-    <a href="#">000000 Ali Kuyu</a>
-    <a href="#">000000 Ali Kuyu</a>
-    <a href="#">000000 Ali Kuyu</a>
-    <a href="#">000000 Ali Kuyu</a>
-    <a href="#">000000 Ali Kuyu</a>
-    <a href="#">000000 Ali Kuyu</a>
-    <a href="#">000000 Ali Kuyu</a>
-    <a href="#">000000 Ali Kuyu</a>
-    <a href="#">000000 Ali Kuyu</a>
-    <a href="#">000000 Ali Kuyu</a>
-    <a href="#">000000 Ali Kuyu</a>
-    <a href="#">000000 Ali Kuyu</a>
-    <a href="#">000000 Ali Kuyu</a>
-</div>
+
+<style>
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+       #background-color: #2196F3;
+        #padding: 10px;
+        justify-content: space-evenly;
+text-align: center;
+    }
+    .grid-item {
+        background-color: rgba(255, 255, 255, 0.8);
+        #border: 1px solid rgba(0, 0, 0, 0.8);
+        padding: 20px;
+        #font-size: 30px;
+        text-align: center;
+
+    }
+</style>
+
+<div class="grid-container">
+    <div class="grid-item">
+
+        <div class="vertical-menu">
+            <h1 style="margin-left: 50px">1/A</h1>
+            <a href="#" class="active">1900001 Ali Bilgin</a>
+            <a href="#">1900002 Bekir Furkan Kesgin</a>
+            <a href="#">1900003 Hacer Busra Meydan</a>
+            <a href="#">1900004 Kutay Bilgin</a>
+            <a href="#">1900005 Hilal Kara</a>
+            <a href="#">1900006 Mehmet Ozdemir</a>
+
+        </div>
     </div>
-    <div class="col-9   ">
-        <div class="c100 p85 orange">
-            <span>85%</span>
+
+
+
+
+    <div class="grid-item">
+        <h1>Levels</h1>
+        <div class="c100 p33 orange">
+            <span>1/3</span>
             <div class="slice">
                 <div class="bar"></div>
                 <div class="fill"></div>
             </div>
 
-
+        </div>
     </div>
 
-</div>
+
+<div id="myP1">
+        <div class="grid-item">
+            <h1>Steps</h1>
+            <div class="c100 p100 orange">
+                <span>4/4</span>
+                <div class="slice">
+                    <div class="bar"></div>
+                    <div class="fill"></div>
+
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div id="myP2" style="display: none;">
+        <div class="grid-item">
+            <h1>Steps</h1>
+            <div class="c100 p30 orange">
+                <span>1/4</span>
+                <div class="slice">
+                    <div class="bar"></div>
+                    <div class="fill"></div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="myP3" style="display: none;">
+        <div class="grid-item">
+            <h1>Steps</h1>
+            <div class="c100 p30 orange">
+                <span>2/4</span>
+                <div class="slice">
+                    <div class="bar"></div>
+                    <div class="fill"></div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+    function myFunctionshow1() {
+
+        document.getElementById("myP1").style.visibility = "visible";
+        document.getElementById("myP1").style.display = "block";
+        document.getElementById("myP2").style.display = "none";
+        document.getElementById("myP3").style.display = "none";
+
+    }
+    function myFunctionshow2(){
+        document.getElementById("myP2").style.visibility = "visible";
+        document.getElementById("myP1").style.display = "none";
+        document.getElementById("myP2").style.display = "block";
+        document.getElementById("myP3").style.display = "none";
+
+
+    }
+    function myFunctionshow3(){
+        document.getElementById("myP3").style.visibility = "visible";
+        document.getElementById("myP1").style.display = "none";
+        document.getElementById("myP2").style.display = "none";
+        document.getElementById("myP3").style.display = "block";
+
+    }
+
+</script>
 
 <style>
+    #myP1{
+        visibility: hidden;
+    }
+    #myP2{
+        visibility: hidden;
+    }
+    #myP3{
+        visibility: hidden;
+    }
+
+    .boxx{
+        background-color: orange;
+        border-radius: 10px;
+    }
+</style>
+    <div class="boxx">
+    <div class="grid-item">
+        <h5>Giris Sure Bilgisi</h5>
+        <h4 >Toplam sure</h4>
+        <h6>43 gun 6 saat 2dk</h6>
+        <h6>En son 54dk once aktifti.</h6>
+
+    </div>
+    </div>
+    <div class="grid-item">
+        <div class="konubasligi">
+            <div class="dropdown">
+            <p style="font-size: 25px;  margin-right: 100px;"><img src="images/tik.png" style="width: 20px; height: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;<a onclick="myFunctionshow1(); myFunction()"  class="dropbtn"><img src="images/dropdown.png" style="width: 10px; height: 10px;" onclick="myFunction(); myFunctionshow1();"> For dongusu</a></p>
+            <div id="myDropdown" class="dropdown-content">
+                <li><a style="font-size: 20px; font-family: 'Arial Rounded MT Bold'">Istatistik</a></li>
+                <li style="text-align: left"><a>1.adim 9 kere yanlis, 10. dogru 20dk</a></li>
+                <li style="text-align: left"><a>2. adim 4 kere yanlis, 5. dogru 10dk</a></li>
+                <li style="text-align: left"> <a>3. adim 3 kere yanlis, 4. dogru 8dk</a></li>
+                <li style="text-align: left"><a>4. adim 1 kere yanlis, 2. dogru 2dk</a></li>
+              </div>
+                <div class="dropdown2">
+                    <p style="font-size: 25px;  margin-right: 150px;"><img src="images/carpi.png" style="width: 20px; height: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;<a onclick="myFunctionshow2(); myFunction2()"  class="dropbtn2"><img src="images/dropdown.png" style="width: 10px; height: 10px;" onclick="myFunction2();myFunctionshow2()" > If dongusu</a></p>
+                    <div id="myDropdown2" class="dropdown-content2">
+                        <li><a style="font-size: 20px; font-family: 'Arial Rounded MT Bold'">Istatistik</a></li>
+                        <li style="text-align: left"><a>1. adim 4 kere yanlis, 5. dogru 12dk</a></li>
+                      <!--  <li style="text-align: left"><a>1. adim 4 kere yanlis, 5. dogru 12dk</a></li>
+                        <li style="text-align: left"><a>2. adim 6 kere yanlis, 7. dogru 16dk</a></li>
+                        <li style="text-align: left"> <a>3. adim 8 kere yanlis, 9. dogru 20dk</a></li>
+                        <li style="text-align: left"><a>4. adim 3 kere yanlis, 4. dogru 10dk</a></li>-->
+                    </div>
+                    <div class="dropdown3">
+                        <p style="font-size: 25px;  margin-right: 150px;"><img src="images/carpi.png" style="width: 20px; height: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;<a onclick="myFunctionshow3();myFunction3()"  class="dropbtn3"><img src="images/dropdown.png" style="width: 10px; height: 10px;" onclick="myFunction3(); myFunctionshow3()" > Operatorler</a></p>
+                        <div id="myDropdown3" class="dropdown-content3">
+                            <li><a style="font-size: 20px; font-family: 'Arial Rounded MT Bold'">Istatistik</a></li>
+                            <li style="text-align: left"><a>1. adim 4 kere yanlis, 5. dogru 12dk</a></li>
+                            <li style="text-align: left"><a>2. adim 6 kere yanlis, 7. dogru 16dk</a></li>
+                            <!--  <li style="text-align: left"><a>1. adim 4 kere yanlis, 5. dogru 12dk</a></li>
+                              <li style="text-align: left"><a>2. adim 6 kere yanlis, 7. dogru 16dk</a></li>
+                              <li style="text-align: left"> <a>3. adim 8 kere yanlis, 9. dogru 20dk</a></li>
+                              <li style="text-align: left"><a>4. adim 3 kere yanlis, 4. dogru 10dk</a></li>-->
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+      <!--  <iframe style="width: 70%; margin-left: 20em; margin-top:-120px;height: 300px" src="iframe.html"></iframe>-->
+        <img src="images/chart/ali.png" style="width: 70%; height: 400px;  margin-left: 400px">
+
+    </div>
+</div>
+
+
+<script>
+    //toggle between hiding and showing the dropdown content
+    function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Closes dropdown
+    window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+        }
+    }
+</script>
+
+
+<script>
+    //toggle between hiding and showing the dropdown content
+    function myFunction2() {
+        document.getElementById("myDropdown2").classList.toggle("show2");
+    }
+
+    // Closes dropdown
+    window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn2')) {
+
+            var dropdowns = document.getElementsByClassName("dropdown-content2");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show2')) {
+                    openDropdown.classList.remove('show2');
+                }
+            }
+        }
+    }
+</script>
+
+
+<script>
+    //toggle between hiding and showing the dropdown content
+    function myFunction3() {
+        document.getElementById("myDropdown3").classList.toggle("show3");
+    }
+
+    // Closes dropdown
+    window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn3')) {
+
+            var dropdowns = document.getElementsByClassName("dropdown-content3");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show3')) {
+                    openDropdown.classList.remove('show3');
+                }
+            }
+        }
+    }
+</script>
+<style>
+    .konubasligi{
+        margin-left: -50px;
+        margin-top: -70px;
+
+    }
+    .konubasligi p, .grid-item h1{
+
+        text-align: left;
+        margin-left: 100px;
+
+    }
+</style>
+
+
+    <style>
+
     .ogrtisim{
         color: black !important;
         margin-top: 10px;
         margin-right: 20px;
     }
     .dropbtn {
-        padding: 16px;
-        font-size: 16px;
+        #padding: 16px;
+        #font-size: 16px;
         cursor: pointer;
         margin-right: 20px;
         border-radius: 10px;
     }
 
     .dropbtn:hover, .dropbtn:focus {
-        background-color: #004a97;
-        color: #fff;
+        #background-color: whitesmoke;
+        #color: #fff;
     }
 
     .dropdown {
@@ -152,17 +379,22 @@
         position: absolute;
         min-width: 160px;
         overflow: auto;
+        margin-left: 100px;
+        background-color: deepskyblue;
+        border-radius: 10px;
+        z-index: 10;
+
     }
 
     .dropdown-content a {
-        color: black;
-        padding: 12px 16px;
+        #color: black;
+        padding: 5px 5px;
         text-decoration: none;
         display: block;
     }
 
     .dropdown a:hover {
-        border-bottom: solid 1px #004a97;
+        #border-bottom: solid 1px #004a97;
         color: #004a97;
     }
 
@@ -179,13 +411,135 @@
         from { opacity: 0; }
         to   { opacity: 1; }
     }
-    .row{
-
-
-    }
 
 </style>
 
+
+
+<style>
+    .dropbtn2 {
+        #padding: 16px;
+        #font-size: 16px;
+        cursor: pointer;
+        margin-right: 20px;
+        border-radius: 10px;
+    }
+
+    .dropbtn2:hover, .dropbtn2:focus {
+        #background-color: whitesmoke;
+        #color: #fff;
+    }
+
+    .dropdown2 {
+        position: relative;
+        display: inline-block;
+    }
+
+    li{
+        list-style-type: none;
+    }
+
+    .dropdown-content2 {
+        display: none;
+        position: absolute;
+        min-width: 160px;
+        overflow: auto;
+        margin-left: 100px;
+        background-color: deepskyblue;
+        border-radius: 10px;
+        z-index: 10;
+
+    }
+
+    .dropdown-content2 a {
+        #color: black;
+        padding: 5px 5px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown2 a:hover {
+        #border-bottom: solid 1px #004a97;
+        color: #004a97;
+    }
+
+    .show2 {
+        display:block;
+        -webkit-animation: fadein 2s; /* Safari and Chrome */
+        -moz-animation: fadein 2s; /* Firefox */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+        -o-animation: fadein 2s; /* Opera */
+        animation: fadein 1s;
+    }
+
+    @keyframes fadein {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+    }
+</style>
+
+
+<style>
+    .dropbtn3 {
+        #padding: 16px;
+        #font-size: 16px;
+        cursor: pointer;
+        margin-right: 20px;
+        border-radius: 10px;
+    }
+
+    .dropbtn3:hover, .dropbtn3:focus {
+        #background-color: whitesmoke;
+        #color: #fff;
+    }
+
+    .dropdown3 {
+        position: relative;
+        display: inline-block;
+    }
+
+    li{
+        list-style-type: none;
+    }
+
+    .dropdown-content3 {
+        display: none;
+        position: absolute;
+        min-width: 160px;
+        overflow: auto;
+        margin-left: 100px;
+        background-color: deepskyblue;
+        border-radius: 10px;
+        z-index: 10;
+
+    }
+
+    .dropdown-content3 a {
+        #color: black;
+        padding: 5px 5px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown3 a:hover {
+        #border-bottom: solid 1px #004a97;
+        color: #004a97;
+    }
+
+    .show3 {
+        display:block;
+        -webkit-animation: fadein 2s; /* Safari and Chrome */
+        -moz-animation: fadein 2s; /* Firefox */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+        -o-animation: fadein 2s; /* Opera */
+        animation: fadein 1s;
+    }
+
+    @keyframes fadein {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+    }
+</style>
 
 </div>
 </body>

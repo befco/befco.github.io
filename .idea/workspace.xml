@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="34a42e7f-c6f2-4a4e-82cb-b18ed653caaa" name="Default Changelist" comment="" />
+    <list default="true" id="34a42e7f-c6f2-4a4e-82cb-b18ed653caaa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dropdown.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/game.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iframe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/game.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/indextumcss.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/sifremiunuttumtumcss.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/yeniuyetumcss.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/forgotpass.html" beforeDir="false" afterPath="$PROJECT_DIR$/forgotpass.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/table/table_01.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/table/table_01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/table/table_02.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/table/table_02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/table/table_03.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/table/table_03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/table/table_04.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/table/table_04.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/table/table_05.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/table/table_05.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/table/table_06.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/table/table_06.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ogretmen1_A.html" beforeDir="false" afterPath="$PROJECT_DIR$/ogretmen1_A.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ogretmenhome.html" beforeDir="false" afterPath="$PROJECT_DIR$/ogretmenhome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/homecss.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/homecss.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/sinifogrenci.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/1-aogretmencss.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yeniuye.html" beforeDir="false" afterPath="$PROJECT_DIR$/yeniuye.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,11 +111,23 @@
       <workItem from="1576509601948" duration="849000" />
       <workItem from="1576516397429" duration="10948000" />
       <workItem from="1576585623282" duration="6220000" />
-      <workItem from="1576606039603" duration="8682000" />
+      <workItem from="1576606039603" duration="8973000" />
+      <workItem from="1576647215866" duration="789000" />
+      <workItem from="1576650727960" duration="921000" />
+      <workItem from="1576662837704" duration="2683000" />
+      <workItem from="1576666084362" duration="9243000" />
+      <workItem from="1576690633119" duration="2028000" />
+      <workItem from="1576698950025" duration="16355000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="490" y="260" width="700" height="530" key="recent.locations.popup" timestamp="1576715568232">
+      <screen x="0" y="22" width="1680" height="1028" />
+    </state>
+    <state x="490" y="260" width="700" height="530" key="recent.locations.popup/0.22.1680.1028@0.22.1680.1028" timestamp="1576715568232" />
   </component>
 </project>

@@ -1,0 +1,28 @@
+
+/*cikis icin olan X in rengini degistirir*/
+.exit{
+    #color: green!important;
+}
+/*cikis icin olan X in arkaplaninin rengini degistirir*/
+.exit{
+    #background-color: #1a8fb4!important;
+}
+
+/*kaydet textinin rengini ayarlar*/
+.signup-btn, .login-btn{
+    #color: red!important;
+}
+
+/*kaydet textinin arkaplan rengini ayarlar*/
+.signup-btn, .login-btn{
+    #background-color: #1a8fb4!important;
+}
+
+/*formun koselerinin sivriligini ayarlar*/
+.sign-up-card, .log-in-card{
+    #border-radius: 20px!important;
+}
+
+
+
+
