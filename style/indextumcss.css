@@ -5,9 +5,7 @@ body{
 }
 
 /*indexhtml dosyasindaki box shadow u formun arkasindan kaldirabiliriz*/
-form{
-    #box-shadow: none!important;
-}
+
 
 /*sifremi unuttum linkinin rengini degistirir.*/
 .sifremiunuttum a{
