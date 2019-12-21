@@ -43,6 +43,17 @@
             background-color: #4c89ff;
             color: white;
         }
+
+        .grid-container{
+            #background-color: #4c96d7;
+        }
+        .grid-item{
+            #background-image: url("images/background/bg.png");
+
+        }
+       body{
+           background-color: #4c96d7;
+       }
     </style>
 </head>
 <body>
@@ -171,7 +182,7 @@ text-align: center;
     <div class="grid-item">
 
         <div class="vertical-menu">
-            <h1 style="margin-left: 50px">1/A</h1>
+            <h1>1/A</h1>
             <a href="#" class="active firstpeople" onmouseover="showpic()">1900001 Ali Bilgin</a>
             <a href="#" class="secondpeople">1900002 Bekir Furkan Kesgin</a>
             <a href="#" class="thirdpeople">1900003 Hacer Busra Meydan</a>
@@ -187,7 +198,7 @@ text-align: center;
 
     <div class="grid-item">
 
-        <h1>Levels</h1>
+        <h1>Seviyeler</h1>
         <div class="c100 p33 orange">
             <span>1/3</span>
             <div class="slice">
@@ -201,7 +212,7 @@ text-align: center;
 
 <div id="myP1">
         <div class="grid-item">
-            <h1>Steps</h1>
+            <h1>Aşamalar</h1>
             <div class="c100 p100 orange">
                 <span>4/4</span>
                 <div class="slice">
@@ -215,7 +226,7 @@ text-align: center;
 
     <div id="myP2" style="display: none;">
         <div class="grid-item">
-            <h1>Steps</h1>
+            <h1>Aşamalar</h1>
             <div class="c100 p30 orange">
                 <span>1/4</span>
                 <div class="slice">
@@ -229,7 +240,7 @@ text-align: center;
 
     <div id="myP3" style="display: none;">
         <div class="grid-item">
-            <h1>Steps</h1>
+            <h1>Aşamalar</h1>
             <div class="c100 p30 orange">
                 <span>2/4</span>
                 <div class="slice">
@@ -282,23 +293,29 @@ text-align: center;
     }
 
     .boxx{
-        background-color: orange;
+        background-color: #d66853!important;
         border-radius: 10px;
     }
+    .grid-container{
+        margin-top: 50px;
+    }
+    .grid-item{
+        border-radius: 10px;
+
+    }
 </style>
-    <div class="boxx">
-    <div class="grid-item">
+    <div class="boxx" style="color: whitesmoke; margin-top: 10px">
+        </br>
         <h5>Giris Sure Bilgisi</h5>
         <h4 >Toplam sure</h4>
         <h6>43 gun 6 saat 2dk</h6>
         <h6>En son 54dk once aktifti.</h6>
 
     </div>
-    </div>
-    <div class="grid-item">
+    <div class="grid-item" style="margin-top: 10px">
         <div class="konubasligi">
             <div class="dropdown">
-            <p style="font-size: 25px;  margin-right: 100px;"><img src="images/tik.png" style="width: 20px; height: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;<a onclick="myFunctionshow1(); myFunction()"  class="dropbtn"><img src="images/dropdown.png" style="width: 10px; height: 10px;" onclick="myFunction(); myFunctionshow1();"> For dongusu</a></p>
+            <p style="font-size: 25px; "><img src="images/tik.png" style="width: 20px; height: 20px; text-align: left">&nbsp;&nbsp;&nbsp;&nbsp;<a onclick="myFunctionshow1(); myFunction()"  class="dropbtn"><img src="images/dropdown.png" style="width: 10px; height: 10px;" onclick="myFunction(); myFunctionshow1();"> For dongusu</a></p>
             <div id="myDropdown" class="dropdown-content">
                 <li><a style="font-size: 20px; font-family: 'Arial Rounded MT Bold'">Istatistik</a></li>
                 <li style="text-align: left"><a>1.adim 9 kere yanlis, 10. dogru 20dk</a></li>
@@ -307,7 +324,7 @@ text-align: center;
                 <li style="text-align: left"><a>4. adim 1 kere yanlis, 2. dogru 2dk</a></li>
               </div>
                 <div class="dropdown2">
-                    <p style="font-size: 25px;  margin-right: 150px;"><img src="images/carpi.png" style="width: 20px; height: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;<a onclick="myFunctionshow2(); myFunction2()"  class="dropbtn2"><img src="images/dropdown.png" style="width: 10px; height: 10px;" onclick="myFunction2();myFunctionshow2()" > If dongusu</a></p>
+                    <p style="font-size: 25px;"><img src="images/carpi.png" style="width: 20px; height: 20px; text-align: left">&nbsp;&nbsp;&nbsp;&nbsp;<a onclick="myFunctionshow2(); myFunction2()"  class="dropbtn2"><img src="images/dropdown.png" style="width: 10px; height: 10px;" onclick="myFunction2();myFunctionshow2()" > If dongusu</a></p>
                     <div id="myDropdown2" class="dropdown-content2">
                         <li><a style="font-size: 20px; font-family: 'Arial Rounded MT Bold'">Istatistik</a></li>
                         <li style="text-align: left"><a>1. adim 4 kere yanlis, 5. dogru 12dk</a></li>
@@ -317,7 +334,7 @@ text-align: center;
                         <li style="text-align: left"><a>4. adim 3 kere yanlis, 4. dogru 10dk</a></li>-->
                     </div>
                     <div class="dropdown3">
-                        <p style="font-size: 25px;  margin-right: 150px;"><img src="images/carpi.png" style="width: 20px; height: 20px;">&nbsp;&nbsp;&nbsp;&nbsp;<a onclick="myFunctionshow3();myFunction3()"  class="dropbtn3"><img src="images/dropdown.png" style="width: 10px; height: 10px;" onclick="myFunction3(); myFunctionshow3()" > Operatorler</a></p>
+                        <p style="font-size: 25px;"><img src="images/carpi.png" style="width: 20px; height: 20px; text-align: left">&nbsp;&nbsp;&nbsp;&nbsp;<a onclick="myFunctionshow3();myFunction3()"  class="dropbtn3"><img src="images/dropdown.png" style="width: 10px; height: 10px;" onclick="myFunction3(); myFunctionshow3()" > Operatorler</a></p>
                         <div id="myDropdown3" class="dropdown-content3">
                             <li><a style="font-size: 20px; font-family: 'Arial Rounded MT Bold'">Istatistik</a></li>
                             <li style="text-align: left"><a>1. adim 4 kere yanlis, 5. dogru 12dk</a></li>
@@ -334,9 +351,11 @@ text-align: center;
             </div>
         </div>
     </div>
+<div class="grid-item" style="background-color: #4c96d7">
+    <img src="images/chart/ali.png" style="width: 600px; height: 300px; margin-left: 50%; margin-top: -400px; margin-right: -150px">
+</div>
 
       <!--  <iframe style="width: 70%; margin-left: 20em; margin-top:-120px;height: 300px" src="iframe.html"></iframe>-->
-        <img src="images/chart/ali.png" style="width: 70%; height: 400px;  margin-left: 400px">
 
     </div>
 </div>
@@ -410,16 +429,15 @@ text-align: center;
     }
 </script>
 <style>
-    .konubasligi{
-        margin-left: -50px;
-        margin-top: -70px;
+
+    .konubasligi p, .grid-item h1{
+        text-align: center;
+        #margin-left: 100px;
 
     }
-    .konubasligi p, .grid-item h1{
 
-        text-align: left;
-        margin-left: 100px;
-
+    .grid-item{
+        #margin-right: 200px;
     }
 </style>
 
@@ -447,6 +465,7 @@ text-align: center;
     .dropdown {
         position: relative;
         display: inline-block;
+        text-align: left;
     }
 
     li{
@@ -456,13 +475,12 @@ text-align: center;
     .dropdown-content {
         display: none;
         position: absolute;
-        min-width: 160px;
+        min-width: 190px;
         overflow: auto;
-        margin-left: 100px;
         background-color: deepskyblue;
         border-radius: 10px;
         z-index: 10;
-
+        width: 250px;
     }
 
     .dropdown-content a {
@@ -496,6 +514,9 @@ text-align: center;
 
 
 <style>
+    .navbar{
+        background-color: #90afc5!important;
+    }
     .dropbtn2 {
         #padding: 16px;
         #font-size: 16px;
@@ -512,6 +533,7 @@ text-align: center;
     .dropdown2 {
         position: relative;
         display: inline-block;
+        margin-right: 20px;
     }
 
     li{
@@ -523,10 +545,11 @@ text-align: center;
         position: absolute;
         min-width: 160px;
         overflow: auto;
-        margin-left: 100px;
         background-color: deepskyblue;
         border-radius: 10px;
         z-index: 10;
+        width: 250px;
+
 
     }
 
@@ -559,6 +582,8 @@ text-align: center;
 
 
 <style>
+
+
     .dropbtn3 {
         #padding: 16px;
         #font-size: 16px;
@@ -575,6 +600,7 @@ text-align: center;
     .dropdown3 {
         position: relative;
         display: inline-block;
+        margin-left: 10px;
     }
 
     li{
@@ -584,12 +610,12 @@ text-align: center;
     .dropdown-content3 {
         display: none;
         position: absolute;
-        min-width: 160px;
+        min-width: 190px;
         overflow: auto;
-        margin-left: 100px;
         background-color: deepskyblue;
         border-radius: 10px;
         z-index: 10;
+        width: 250px;
 
     }
 
@@ -621,14 +647,15 @@ text-align: center;
 </style>
 
 </div>
-<div class="copyriht" style="margin-top: 50px; padding-bottom: 30px;">
+<div class="copyriht" style="margin-top: 50px; padding-bottom: 20px; ">
     <br>
     <p>© Copyright BEF CO Ltd 2019 | Designed by Furkan Kesgin & Hacer Busra Meydan & Emine Ergin </p><p>
 </p></div>
 
 <style>
     .copyriht {
-        color: #818a91;
+        background-color: #90afc5!important;
+        color: #000;
         margin-top: 10px;
         text-align: center;
     }
