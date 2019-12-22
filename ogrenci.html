@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Game</title>
+    <link rel="stylesheet" href="style/game.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style/homecss.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+
+<style>
+    .ogrtisim, .quit{
+        margin-left: 75%!important;
+    }
+</style>
+
+<div class="slider">
+
+    <form class="form-inline my-2 my-lg-0">
+
+    </form>
+    <!-- slides -->
+    <div class="slider__slides">
+
+
+        <div class="slide s--active">
+
+            <div class="slide__inner">
+
+                <a href="index.html" class="quit"><img src="images/powerquit.png" style="width: 40px; height: 40px; margin-left: 300px; margin-top: 50px"></a>
+                <img class="navbar-brand" src="images/logo.png" style="margin-left: 40px; margin-top: -60px">
+
+                <div class="slide__content">
+                    <h2 class="slide__heading">Clip-Path Revealing Slider</h2>
+                    <p class="slide__text">Greetings, Traveler!</p>
+                </div>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="slide__inner">
+                <div class="slide__content">
+                    <h2 class="slide__heading">Simple Animation</h2>
+                    <p class="slide__text">Clip-path magic!</p>
+                </div>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="slide__inner">
+                <div class="slide__content">
+                    <h2 class="slide__heading">Very Stylish Effect!</h2>
+                    <p class="slide__text">It looks cool, isn't it?</p>
+                </div>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="slide__inner">
+                <div class="slide__content">
+                    <h2 class="slide__heading">Limited browser support</h2>
+                    <p class="slide__text">Forget about IE/Edge and FF</p>
+                </div>
+            </div>
+        </div>
+        <div class="slide s--prev">
+            <div class="slide__inner">
+                <div class="slide__content">
+                    <h2 class="slide__heading">Check my other stuff!</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- slides end -->
+    <div class="slider__control">
+        <div class="slider__control-line"></div>
+        <div class="slider__control-line"></div>
+    </div>
+    <div class="slider__control slider__control--right m--right">
+        <div class="slider__control-line"></div>
+        <div class="slider__control-line"></div>
+    </div>
+</div>
+
+<script>
+    (function() {
+        var $slides = document.querySelectorAll('.slide');
+        var $controls = document.querySelectorAll('.slider__control');
+        var numOfSlides = $slides.length;
+        var slidingAT = 1300; // sync this with scss variable
+        var slidingBlocked = false;
+
+        [].slice.call($slides).forEach(function($el, index) {
+            var i = index + 1;
+            $el.classList.add('slide-' + i);
+            $el.dataset.slide = i;
+        });
+
+        [].slice.call($controls).forEach(function($el) {
+            $el.addEventListener('click', controlClickHandler);
+        });
+
+        function controlClickHandler() {
+            if (slidingBlocked) return;
+            slidingBlocked = true;
+
+            var $control = this;
+            var isRight = $control.classList.contains('m--right');
+            var $curActive = document.querySelector('.slide.s--active');
+            var index = +$curActive.dataset.slide;
+            (isRight) ? index++ : index--;
+            if (index < 1) index = numOfSlides;
+            if (index > numOfSlides) index = 1;
+            var $newActive = document.querySelector('.slide-' + index);
+
+            $control.classList.add('a--rotation');
+            $curActive.classList.remove('s--active', 's--active-prev');
+            document.querySelector('.slide.s--prev').classList.remove('s--prev');
+
+            $newActive.classList.add('s--active');
+            if (!isRight) $newActive.classList.add('s--active-prev');
+
+
+            var prevIndex = index - 1;
+            if (prevIndex < 1) prevIndex = numOfSlides;
+
+            document.querySelector('.slide-' + prevIndex).classList.add('s--prev');
+
+            setTimeout(function() {
+                $control.classList.remove('a--rotation');
+                slidingBlocked = false;
+            }, slidingAT*0.75);
+        };
+    }());
+</script>
+</body>
+</html>
