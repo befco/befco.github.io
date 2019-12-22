@@ -49,9 +49,9 @@
             #background-image: url("images/background/bg.png");
 
         }
-        body{
-            background-color: #4c96d7;
-        }
+       body{
+           background-color: #4c96d7;
+       }
     </style>
 </head>
 <body>
@@ -70,7 +70,7 @@
             </li>
 
         </ul>
-        <p class="ogrtisim">Demo Ogretmen</p>
+            <p class="ogrtisim">Demo Ogretmen</p>
 
         <form class="form-inline my-2 my-lg-0">
 
@@ -83,10 +83,10 @@
     .grid-container {
         display: grid;
         grid-template-columns: auto auto auto;
-        #background-color: #2196F3;
+       #background-color: #2196F3;
         #padding: 10px;
         justify-content: space-evenly;
-        text-align: center;
+text-align: center;
     }
     .grid-item {
         background-color: rgba(255, 255, 255, 0.8);
@@ -166,7 +166,7 @@
                 alert("ok")
             }
         }
-    }
+        }
     }
 </script>
 
@@ -181,8 +181,8 @@
 
         <div class="vertical-menu">
             <h1>1/A</h1>
-            <a href="#" class="firstpeople" onmouseover="showpic()">1900001 Ali Bilgin</a>
-            <a href="#" class="active secondpeople">1900002 Bekir Furkan Kesgin</a>
+            <a href="ogretmen1_A.html" class="firstpeople" onmouseover="showpic()">1900001 Ali Bilgin</a>
+            <a href="1ABEKIR.html" class="active secondpeople">1900002 Bekir Furkan Kesgin</a>
             <a href="#" class="thirdpeople">1900003 Hacer Busra Meydan</a>
             <a href="#" class="fourthpeople">1900004 Emine Ergin</a>
             <a href="#" class="fifthpeople">1900005 Hilal Kara</a>
@@ -208,7 +208,7 @@
     </div>
 
 
-    <div id="myP1">
+<div id="myP1">
         <div class="grid-item">
             <h1>Aşamalar</h1>
             <div class="c100 p100 orange">
@@ -217,8 +217,8 @@
                     <div class="bar"></div>
                     <div class="fill"></div>
 
-                </div>
             </div>
+        </div>
         </div>
     </div>
 
@@ -253,55 +253,55 @@
 
 
     <script>
-        function myFunctionshow1() {
+    function myFunctionshow1() {
 
-            document.getElementById("myP1").style.visibility = "visible";
-            document.getElementById("myP1").style.display = "block";
-            document.getElementById("myP2").style.display = "none";
-            document.getElementById("myP3").style.display = "none";
+        document.getElementById("myP1").style.visibility = "visible";
+        document.getElementById("myP1").style.display = "block";
+        document.getElementById("myP2").style.display = "none";
+        document.getElementById("myP3").style.display = "none";
 
-        }
-        function myFunctionshow2(){
-            document.getElementById("myP2").style.visibility = "visible";
-            document.getElementById("myP1").style.display = "none";
-            document.getElementById("myP2").style.display = "block";
-            document.getElementById("myP3").style.display = "none";
+    }
+    function myFunctionshow2(){
+        document.getElementById("myP2").style.visibility = "visible";
+        document.getElementById("myP1").style.display = "none";
+        document.getElementById("myP2").style.display = "block";
+        document.getElementById("myP3").style.display = "none";
 
 
-        }
-        function myFunctionshow3(){
-            document.getElementById("myP3").style.visibility = "visible";
-            document.getElementById("myP1").style.display = "none";
-            document.getElementById("myP2").style.display = "none";
-            document.getElementById("myP3").style.display = "block";
+    }
+    function myFunctionshow3(){
+        document.getElementById("myP3").style.visibility = "visible";
+        document.getElementById("myP1").style.display = "none";
+        document.getElementById("myP2").style.display = "none";
+        document.getElementById("myP3").style.display = "block";
 
-        }
+    }
 
-    </script>
+</script>
 
-    <style>
-        #myP1{
-            visibility: hidden;
-        }
-        #myP2{
-            visibility: hidden;
-        }
-        #myP3{
-            visibility: hidden;
-        }
+<style>
+    #myP1{
+        visibility: hidden;
+    }
+    #myP2{
+        visibility: hidden;
+    }
+    #myP3{
+        visibility: hidden;
+    }
 
-        .boxx{
-            background-color: #d66853!important;
-            border-radius: 10px;
-        }
-        .grid-container{
-            margin-top: 50px;
-        }
-        .grid-item{
-            border-radius: 10px;
+    .boxx{
+        background-color: #d66853!important;
+        border-radius: 10px;
+    }
+    .grid-container{
+        margin-top: 50px;
+    }
+    .grid-item{
+        border-radius: 10px;
 
-        }
-    </style>
+    }
+</style>
     <div class="boxx" style="color: whitesmoke; margin-top: 10px">
         <br>
         <h5>Giris Sure Bilgisi</h5>
@@ -313,26 +313,26 @@
     <div class="grid-item" style="margin-top: 10px">
         <div class="konubasligi">
             <div class="dropdown">
-                <p style="font-size: 25px; "><img src="images/tik.png" style="width: 20px; height: 20px; text-align: left">&nbsp;&nbsp;&nbsp;&nbsp;<a onclick="myFunctionshow1(); myFunction()" class="dropbtn"><img src="images/dropdown.png" style="width: 10px; height: 10px;" onclick="myFunction(); myFunctionshow1();"> For dongusu</a></p>
-                <div id="myDropdown" class="dropdown-content">
-                    <li><a style="font-size: 20px; font-family: 'Arial Rounded MT Bold'">Istatistik</a></li>
-                    <li style="text-align: left"><a>1.adim 9 kere yanlis, 10. dogru 20dk</a></li>
-                    <li style="text-align: left"><a>2. adim 4 kere yanlis, 5. dogru 10dk</a></li>
-                    <li style="text-align: left"> <a>3. adim 3 kere yanlis, 4. dogru 8dk</a></li>
-                    <li style="text-align: left"><a>4. adim 1 kere yanlis, 2. dogru 2dk</a></li>
-                </div>
+            <p style="font-size: 25px; "><img src="images/tik.png" style="width: 20px; height: 20px; text-align: left">&nbsp;&nbsp;&nbsp;&nbsp;<a onclick="myFunctionshow1(); myFunction()" class="dropbtn"><img src="images/dropdown.png" style="width: 10px; height: 10px;" onclick="myFunction(); myFunctionshow1();">Yer-Yön</a></p>
+            <div id="myDropdown" class="dropdown-content">
+                <li><a style="font-size: 20px; font-family: 'Arial Rounded MT Bold'">Istatistik</a></li>
+                <li style="text-align: left"><a>1.adim 9 kere yanlis, 10. dogru 20dk</a></li>
+                <li style="text-align: left"><a>2. adim 4 kere yanlis, 5. dogru 10dk</a></li>
+                <li style="text-align: left"> <a>3. adim 3 kere yanlis, 4. dogru 8dk</a></li>
+                <li style="text-align: left"><a>4. adim 1 kere yanlis, 2. dogru 2dk</a></li>
+              </div>
                 <div class="dropdown2">
-                    <p style="font-size: 25px;"><img src="images/carpi.png" style="width: 20px; height: 20px; text-align: left">&nbsp;&nbsp;&nbsp;&nbsp;<a onclick="myFunctionshow2(); myFunction2()" class="dropbtn2"><img src="images/dropdown.png" style="width: 10px; height: 10px;" onclick="myFunction2();myFunctionshow2()"> If dongusu</a></p>
+                    <p style="font-size: 25px;"><img src="images/carpi.png" style="width: 20px; height: 20px; text-align: left">&nbsp;&nbsp;&nbsp;&nbsp;<a onclick="myFunctionshow2(); myFunction2()" class="dropbtn2"><img src="images/dropdown.png" style="width: 10px; height: 10px;" onclick="myFunction2();myFunctionshow2()">Döngüler</a></p>
                     <div id="myDropdown2" class="dropdown-content2">
                         <li><a style="font-size: 20px; font-family: 'Arial Rounded MT Bold'">Istatistik</a></li>
                         <li style="text-align: left"><a>1. adim 4 kere yanlis, 5. dogru 12dk</a></li>
-                        <!--  <li style="text-align: left"><a>1. adim 4 kere yanlis, 5. dogru 12dk</a></li>
-                          <li style="text-align: left"><a>2. adim 6 kere yanlis, 7. dogru 16dk</a></li>
-                          <li style="text-align: left"> <a>3. adim 8 kere yanlis, 9. dogru 20dk</a></li>
-                          <li style="text-align: left"><a>4. adim 3 kere yanlis, 4. dogru 10dk</a></li>-->
+                      <!--  <li style="text-align: left"><a>1. adim 4 kere yanlis, 5. dogru 12dk</a></li>
+                        <li style="text-align: left"><a>2. adim 6 kere yanlis, 7. dogru 16dk</a></li>
+                        <li style="text-align: left"> <a>3. adim 8 kere yanlis, 9. dogru 20dk</a></li>
+                        <li style="text-align: left"><a>4. adim 3 kere yanlis, 4. dogru 10dk</a></li>-->
                     </div>
                     <div class="dropdown3">
-                        <p style="font-size: 25px;"><img src="images/carpi.png" style="width: 20px; height: 20px; text-align: left">&nbsp;&nbsp;&nbsp;&nbsp;<a onclick="myFunctionshow3();myFunction3()" class="dropbtn3"><img src="images/dropdown.png" style="width: 10px; height: 10px;" onclick="myFunction3(); myFunctionshow3()"> Operatorler</a></p>
+                        <p style="font-size: 25px;"><img src="images/carpi.png" style="width: 20px; height: 20px; text-align: left">&nbsp;&nbsp;&nbsp;&nbsp;<a onclick="myFunctionshow3();myFunction3()" class="dropbtn3"><img src="images/dropdown.png" style="width: 10px; height: 10px;" onclick="myFunction3(); myFunctionshow3()">Koşul</a></p>
                         <div id="myDropdown3" class="dropdown-content3">
                             <li><a style="font-size: 20px; font-family: 'Arial Rounded MT Bold'">Istatistik</a></li>
                             <li style="text-align: left"><a>1. adim 4 kere yanlis, 5. dogru 12dk</a></li>
@@ -344,18 +344,18 @@
                         </div>
                     </div>
                 </div>
-            </div>
+                </div>
 
+            </div>
         </div>
     </div>
-</div>
 <div class="grid-item" style="background-color: #4c96d7">
     <img src="images/chart/ali.png" style="width: 600px; height: 300px; margin-left: 50%; margin-top: -400px; margin-right: -150px">
 </div>
 
-<!--  <iframe style="width: 70%; margin-left: 20em; margin-top:-120px;height: 300px" src="iframe.html"></iframe>-->
+      <!--  <iframe style="width: 70%; margin-left: 20em; margin-top:-120px;height: 300px" src="iframe.html"></iframe>-->
 
-
+    
 
 
 
@@ -429,7 +429,7 @@
 <style>
 
     .konubasligi p, .grid-item h1{
-        text-align: center;
+        #text-align: center;
         #margin-left: 100px;
 
     }
@@ -440,7 +440,7 @@
 </style>
 
 
-<style>
+    <style>
 
     .ogrtisim{
         color: black !important;
@@ -598,7 +598,7 @@
     .dropdown3 {
         position: relative;
         display: inline-block;
-        margin-left: 10px;
+        #margin-left: 10px;
     }
 
     li{
