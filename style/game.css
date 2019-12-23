@@ -144,19 +144,25 @@ body {
     clip-path: circle(120vmax at 30vw 50%);
 }
 .slide:nth-child(1) .slide__inner {
-    background-image: url("../images/slider/img1.png");
+    background-image: url("../images/slider/1.png");
 }
 .slide:nth-child(2) .slide__inner {
-    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/onepgscr-3.jpg");
+    background-image: url("../images/slider/2.png");
 }
 .slide:nth-child(3) .slide__inner {
-    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/onepgscr-4.jpg");
+    background-image: url("../images/slider/5.png");
 }
 .slide:nth-child(4) .slide__inner {
-    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/onepgscr-5.jpg");
+    background-image: url("../images/slider/6.png");
 }
 .slide:nth-child(5) .slide__inner {
-    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/onepgscr-6.jpg");
+    background-image: url("../images/slider/5.png");
+}
+.slide:nth-child(6) .slide__inner {
+    background-image: url("../images/slider/3.png");
+}
+.slide:nth-child(7) .slide__inner {
+    background-image: url("../images/slider/7.png");
 }
 .slide__inner {
     position: absolute;
